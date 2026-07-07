@@ -144,7 +144,7 @@ form.addEventListener('submit', async (e) => {
 
     const originalText = submitBtn.textContent;
 
-    submitBtn.textContent = "Sending...";
+    submitBtn.textContent = "Enviando...";
     submitBtn.disabled = true;
 
     try {
